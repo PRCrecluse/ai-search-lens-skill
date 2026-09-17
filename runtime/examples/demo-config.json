@@ -1,0 +1,34 @@
+{
+  "query": "best ai music video generator",
+  "demo": true,
+  "brands": [
+    {
+      "name": "Freebeat",
+      "domains": [
+        "freebeat.ai"
+      ],
+      "target": true
+    },
+    {
+      "name": "Neural Frames",
+      "aliases": [
+        "neuralframes"
+      ],
+      "domains": [
+        "neuralframes.com"
+      ]
+    },
+    {
+      "name": "Kaiber",
+      "domains": [
+        "kaiber.ai"
+      ]
+    },
+    {
+      "name": "Runway",
+      "domains": [
+        "runwayml.com"
+      ]
+    }
+  ]
+}

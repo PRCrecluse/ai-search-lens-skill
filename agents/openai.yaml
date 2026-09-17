@@ -1,0 +1,4 @@
+interface:
+  display_name: "AI Search Lens"
+  short_description: "Research AI search visibility with traceable evidence and reports"
+  default_prompt: "Use $ai-search-lens to research my brand’s visibility in an AI search answer and export an evidence-backed report."

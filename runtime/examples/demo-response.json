@@ -1,0 +1,170 @@
+{
+  "id": "resp_synthetic_demo",
+  "model": "gpt-6-astra · demo fixture",
+  "created_at": 1789606800,
+  "status": "completed",
+  "tool_choice": "required",
+  "reasoning": {
+    "effort": "low"
+  },
+  "output": [
+    {
+      "id": "ws_demo_01",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "queries": [
+          "best AI music video generator audio reactive comparison",
+          "site.kaiber.ai music video generator",
+          "site.runwayml.com music video generator"
+        ],
+        "sources": [
+          {
+            "type": "url",
+            "url": "https://helpcenter.kaiber.ai/",
+            "title": "Kaiber Help Center — Beat Sync"
+          },
+          {
+            "type": "url",
+            "url": "https://runwayml.com/",
+            "title": "Runway — Creative tools"
+          },
+          {
+            "type": "url",
+            "url": "https://www.reddit.com/r/aivideo/",
+            "title": "AI video community"
+          },
+          {
+            "type": "url",
+            "url": "https://www.reddit.com/r/VideoEditing/",
+            "title": "Video editing discussions"
+          },
+          {
+            "type": "url",
+            "url": "https://www.reddit.com/r/musicproduction/",
+            "title": "Music production discussions"
+          },
+          {
+            "type": "url",
+            "url": "https://www.neuralframes.com/",
+            "title": "Neural Frames"
+          },
+          {
+            "type": "url",
+            "url": "https://freebeat.ai/blog",
+            "title": "Freebeat blog"
+          },
+          {
+            "type": "url",
+            "url": "https://help.runwayml.com/",
+            "title": "Runway Help Center"
+          },
+          {
+            "type": "url",
+            "url": "https://www.youtube.com/",
+            "title": "Creator tutorials"
+          },
+          {
+            "type": "url",
+            "url": "https://www.tomsguide.com/",
+            "title": "Video software reviews"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ws_demo_02",
+      "type": "web_search_call",
+      "status": "completed",
+      "action": {
+        "type": "search",
+        "queries": [
+          "freebeat AI music video features",
+          "site:neuralframes.com full song music video"
+        ],
+        "sources": [
+          {
+            "type": "url",
+            "url": "https://www.neuralframes.com/ai-music-video-generator",
+            "title": "AI music video generator — Neural Frames"
+          },
+          {
+            "type": "url",
+            "url": "https://freebeat.ai/",
+            "title": "Freebeat — Music to video"
+          },
+          {
+            "type": "url",
+            "url": "https://helpcenter.kaiber.ai/",
+            "title": "Kaiber Help Center — Beat Sync"
+          },
+          {
+            "type": "url",
+            "url": "https://runwayml.com/",
+            "title": "Runway — Creative tools"
+          },
+          {
+            "type": "url",
+            "url": "https://www.neuralframes.com/",
+            "title": "Neural Frames"
+          },
+          {
+            "type": "url",
+            "url": "https://freebeat.ai/blog",
+            "title": "Freebeat blog"
+          }
+        ]
+      }
+    },
+    {
+      "id": "msg_demo",
+      "type": "message",
+      "role": "assistant",
+      "status": "completed",
+      "content": [
+        {
+          "type": "output_text",
+          "text": "For an audio-reactive music video, Neural Frames is a candidate to evaluate. Its workflow focuses on turning a song into a visual sequence. [AI music video generator — Neural Frames]\n\nFor a more automated song-to-video workflow, Freebeat is another option to compare. Review its current features and pricing before choosing. [Freebeat — Music to video]\n\nKaiber is worth comparing for beat-synced clips, while Runway offers a broader set of creative video tools. [Kaiber Help Center — Beat Sync]\n\nRunway may suit a shot-by-shot workflow where you want more direct control over the visual sequence. [Runway — Creative tools]\n\nStart with the same 20-second sample in each tool. Compare music alignment, visual consistency, editing control, and export quality. Neural Frames is one candidate for that trial. [AI music video generator — Neural Frames]",
+          "annotations": [
+            {
+              "type": "url_citation",
+              "url": "https://www.neuralframes.com/ai-music-video-generator",
+              "title": "AI music video generator — Neural Frames",
+              "start_index": 140,
+              "end_index": 182
+            },
+            {
+              "type": "url_citation",
+              "url": "https://freebeat.ai/",
+              "title": "Freebeat — Music to video",
+              "start_index": 325,
+              "end_index": 352
+            },
+            {
+              "type": "url_citation",
+              "url": "https://helpcenter.kaiber.ai/",
+              "title": "Kaiber Help Center — Beat Sync",
+              "start_index": 462,
+              "end_index": 494
+            },
+            {
+              "type": "url_citation",
+              "url": "https://runwayml.com/",
+              "title": "Runway — Creative tools",
+              "start_index": 597,
+              "end_index": 622
+            },
+            {
+              "type": "url_citation",
+              "url": "https://www.neuralframes.com/ai-music-video-generator",
+              "title": "AI music video generator — Neural Frames",
+              "start_index": 804,
+              "end_index": 846
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
