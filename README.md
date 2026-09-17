@@ -4,7 +4,19 @@
 
 Trace visible AI search queries, brand mentions, sources and citations, then export a self-contained HTML evidence report. This repository is the standalone skill distribution of [AI Search Lens](https://github.com/PRCrecluse/ai-search-lens).
 
-[在线工具](https://www.goglobal.to/tools/ai-search-lens) · [Skill 使用指南](https://www.goglobal.to/skills/geo) · [下载 Release](https://github.com/PRCrecluse/ai-search-lens-skill/releases/latest)
+## 在线体验与图文教程
+
+| 入口 | 链接 |
+| --- | --- |
+| 在线工具 / Tool page | [goglobal.to/tools/ai-search-lens](https://www.goglobal.to/tools/ai-search-lens) |
+| GEO Skill / Skill page | [goglobal.to/skills/geo](https://www.goglobal.to/skills/geo) |
+| Skills 聚合页 | [goglobal.to/skills](https://www.goglobal.to/skills) |
+| 图文使用指南 | [从单个 query 到可导出的研究报告](docs/usage-guide.md) |
+| 命令行下载 | [最新 Release · ZIP / tar.gz / SHA256](https://github.com/PRCrecluse/ai-search-lens-skill/releases/latest) |
+
+[![AI Search Lens 在线工具与合成示例报告预览](docs/images/tool-overview.png)](https://www.goglobal.to/tools/ai-search-lens)
+
+上图为 Ego Lite 导出的线上页面打印视图，使用合成示例数据。完整的品牌分析、查询展开、来源引用及安装步骤请看 **[图文使用指南](docs/usage-guide.md)**。
 
 ## 一条命令安装 / Skills CLI
 
@@ -95,8 +107,9 @@ npm run report -- --query "best ai music video generator" --brand Freebeat --dom
 
 报告包含可见 query fan-out、工具调用、品牌与竞品提及、来源域名、来源 URL 和最终引用，并支持 HTML、Markdown、原始及结构化 JSON 导出。报告只能呈现 API 公开返回的信息，不包含隐藏思维链；单次响应不是总体品牌可见率或搜索量。
 
-## 结构与来源
+## 仓库结构
 
+- `docs/`：图文使用指南与配图。
 - `SKILL.md`：Agent 入口指令。
 - `agents/`、`references/`：Agent 元信息和数据契约。
 - `runtime/`：完整、无第三方 npm 依赖的本地运行代码。
