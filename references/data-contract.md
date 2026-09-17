@@ -4,7 +4,7 @@ A brand config JSON supports:
 
 ```json
 {
-  "query": "best ai music video generator",
+  "query": "best image generator",
   "model": "gpt-6-astra",
   "brands": [
     { "name": "Freebeat", "aliases": ["Free Beat"], "domains": ["freebeat.ai"], "target": true },

@@ -18,7 +18,7 @@
 在 **What would your customer ask?** 输入客户可能问的问题，例如：
 
 ```text
-best ai music video generator
+best image generator
 ```
 
 点击 **Analyze query**，按弹出的研究表单填写目标品牌、域名和竞品，然后开始采集。也可以通过左侧 **新建研究** 打开表单。完成后先查看数据概览。
@@ -88,7 +88,7 @@ npx skills add PRCrecluse/ai-search-lens-skill --skill ai-search-lens --agent cl
 
 开启新的 Agent 会话，输入：
 
-> 使用 $ai-search-lens 研究 “best ai music video generator”，跟踪 Freebeat、Neural Frames 和 Kaiber，导出查询展开、品牌证据和引用来源的 HTML 报告。
+> 使用 $ai-search-lens 研究 “best image generator”，跟踪 Freebeat、Neural Frames 和 Kaiber，导出查询展开、品牌证据和引用来源的 HTML 报告。
 
 安装包包含完整运行代码。首次使用可以让 Agent 先运行 `--demo`，再配置自己的 API 服务。查看 [Skill 页面](https://www.goglobal.to/skills/geo) 或 [README](../README.md) 中的更新、Git 安装和 Release 下载命令。
 
@@ -121,7 +121,7 @@ cp runtime/.env.example runtime/.env
 ```sh
 cd runtime
 npm run report -- \
-  --query "best ai music video generator" \
+  --query "best image generator" \
   --brand Freebeat \
   --domain freebeat.ai \
   --competitors "Neural Frames,Kaiber" \

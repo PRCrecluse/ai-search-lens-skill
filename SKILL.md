@@ -30,7 +30,7 @@ node --env-file-if-exists=.env scripts/research.mjs --help
 ```sh
 # Live collection; the output directory is chosen for this task.
 node --env-file-if-exists=.env scripts/research.mjs \
-  --query "best ai music video generator" \
+  --query "best image generator" \
   --brand "Freebeat" --domain "freebeat.ai" --out ./reports/music
 
 # Analyze an existing response without another API request.

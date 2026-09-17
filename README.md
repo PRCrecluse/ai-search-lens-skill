@@ -33,7 +33,7 @@ npx skills add PRCrecluse/ai-search-lens-skill --skill ai-search-lens --agent cl
 
 去掉 `--global` 即可安装到当前项目。安装完成后开启新的 Agent 会话，输入：
 
-> 使用 $ai-search-lens 研究 “best ai music video generator”，跟踪 Freebeat、Neural Frames 和 Kaiber，导出查询展开、品牌证据和引用来源的 HTML 报告。
+> 使用 $ai-search-lens 研究 “best image generator”，跟踪 Freebeat、Neural Frames 和 Kaiber，导出查询展开、品牌证据和引用来源的 HTML 报告。
 
 也可以用 `npx skills check` 检查更新，或用 `npx skills update` 更新通过该工具安装的 Skills。
 
@@ -82,7 +82,7 @@ cd ai-search-lens-skill
 node scripts/install.mjs --agent codex
 ```
 
-Release 同时提供 `.zip` 和 SHA-256 校验文件。需要固定版本时，将 URL 中的 `latest/download` 改为 `download/v1.0.0`。
+Release 同时提供 `.zip` 和 SHA-256 校验文件。需要固定版本时，将 URL 中的 `latest/download` 改为 `download/v1.0.1`。
 
 ## 下载后直接运行
 
@@ -100,7 +100,7 @@ npm start
 真实研究：把 `runtime/.env.example` 复制为 `runtime/.env`，自行填写 `OPENAI_API_KEY`，然后在 `runtime` 目录执行：
 
 ```sh
-npm run report -- --query "best ai music video generator" --brand Freebeat --domain freebeat.ai --out ./reports/music
+npm run report -- --query "best image generator" --brand Freebeat --domain freebeat.ai --out ./reports/music
 ```
 
 可通过 `OPENAI_MODEL` 选择账号支持的模型，通过 `OPENAI_BASE_URL` 配置兼容的 Responses API 服务。API 调用由自己的服务商账号计费；导入已有响应和示例不调用模型。

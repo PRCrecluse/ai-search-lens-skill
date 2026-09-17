@@ -69,7 +69,7 @@ const raw = {
       action: {
         type: "search",
         queries: [
-          "best AI music video generator audio reactive comparison",
+          "best image generator audio reactive comparison",
           "site.kaiber.ai music video generator",
           "site.runwayml.com music video generator",
         ],
@@ -99,7 +99,7 @@ const raw = {
   ],
 };
 const config = {
-  query: "best ai music video generator",
+  query: "best image generator",
   demo: true,
   brands: [
     { name: "Freebeat", domains: ["freebeat.ai"], target: true },

@@ -1,6 +1,6 @@
 {
   "name": "ai-search-lens",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Evidence-first AI search research, with a Manus-inspired workspace and portable reports.",
   "type": "module",
   "private": true,
